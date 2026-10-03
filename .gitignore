@@ -1,0 +1,27 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Data & Visualizations
+*.mp4
+*.7z
+# (We keep cluster_data.csv because it's tiny and needed for the plots)
+
+# Academic & Reports
+*.pdf
+*.docx
+*.pptx
+*.txt
+*.jpeg
+!README.md
+!requirements.txt
+
+# Keys and Secrets
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
